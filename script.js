@@ -80,6 +80,18 @@ const translations = {
     "approach_signature": "— Chaimae",
     "gallery_title": "Nos créations",
     "gallery_btn": "Voir plus de créations",
+    "reviews_eyebrow": "Avis clients",
+    "reviews_title": "Elles nous ont fait confiance",
+    "reviews_summary": "Basé sur les avis de nos clientes",
+    "review1_author": "imane irainat",
+    "review1_date": "Octobre 2023",
+    "review1_text": "« Chaïmae , une prestation exceptionnelle dans l’ordre de la grandeur marocaine.  Avec une finition de professionnalisme et d’accompagnement sans faille.  Des pièces magnifiques et des matériaux de qualités venue tout droit de nos artisans menuisier. Rien à redire ! »",
+    "review2_author": "Sarah RIAHI",
+    "review2_date": "Juin 2026",
+    "review2_text": "« Chaimae a été un amour ! Je la recommande à 1000%\nCompréhensive, toujours à l'écoute, à la recherche de solution.. bref c'est une personne avec un coeur en or »",
+    "review3_author": "ynès berkane",
+    "review3_date": "Août 2025",
+    "review3_text": "« Vraiment la meilleure des negafa sans elle mon mariage aurait pas été si aussi bien c’est une personne professionnelle avec un très grand cœur mash’allah je vous conseille de aller chez elle et de lui faire confiance !!! Merci encore Chaimae❤️❤️❤️❤️❤️ »",
     "contact_eyebrow": "Contact",
     "contact_title": "Réservez votre rendez-vous",
     "contact_text": "Un projet, une envie, une question ? Écrivez-nous directement sur Instagram, nous vous répondons avec plaisir.",
@@ -122,6 +134,18 @@ const translations = {
     "approach_signature": "— شيماء",
     "gallery_title": "إبداعاتنا",
     "gallery_btn": "اكتشفي المزيد من إبداعاتنا",
+    "reviews_eyebrow": "آراء العميلات",
+    "reviews_title": "لقد وثقن بنا",
+    "reviews_summary": "بناءً على آراء عميلاتنا",
+    "review1_author": "imane irainat",
+    "review1_date": "أكتوبر 2023",
+    "review1_text": "« شيماء، خدمة استثنائية بمستوى العظمة المغربية. بلمسة نهائية احترافية ومرافقة لا تشوبها شائبة. قطع رائعة ومواد عالية الجودة قادمة مباشرة من حِرفيي النجارة لدينا. لا ملاحظات إطلاقاً! »",
+    "review2_author": "Sarah RIAHI",
+    "review2_date": "يونيو 2026",
+    "review2_text": "« كانت شيماء لطيفة جداً! أنصح بها بنسبة 1000%\nمتفهمة، تُصغي دائماً، وتبحث عن الحلول.. باختصار هي إنسانة بقلب من ذهب »",
+    "review3_author": "ynès berkane",
+    "review3_date": "غشت 2025",
+    "review3_text": "« بصراحة أفضل نݣافة، بدونها ما كان زفافي ليكون بهذا الجمال. إنسانة محترفة بقلب كبير جداً ما شاء الله، أنصحكم بالذهاب إليها ووضع ثقتكم فيها!!! شكراً مرة أخرى شيماء ❤️❤️❤️❤️❤️ »",
     "contact_eyebrow": "اتصلي بنا",
     "contact_title": "احجزي موعدك",
     "contact_text": "لديك مشروع أو رغبة أو سؤال؟ راسلينا مباشرة عبر إنستغرام، يسعدنا الرد عليك.",
@@ -131,7 +155,6 @@ const translations = {
     "footer_rights": "جميع الحقوق محفوظة."
   }
 };
-
 function initLanguageSwitch() {
   const button = document.getElementById('lang-switch');
   if (!button) return;
